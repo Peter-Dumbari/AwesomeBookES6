@@ -57,8 +57,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Add Book]**
 - **[Display books]**
 - **[Remove book]**
@@ -69,9 +67,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://peter-dumbari.github.io/AwesomeBookES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
