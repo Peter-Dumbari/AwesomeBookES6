@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./images/logo" alt="logo" width="140"  height="auto" />
+  <img src="./Public/images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Awesome Book</b></h3>
@@ -57,25 +57,17 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Add Book]**
 - **[Display books]**
 - **[Remove book]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Live Demo Link](https://peter-dumbari.github.io/AwesomeBookES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -114,9 +106,16 @@ To run the project on your computer, execute the following command :
   npx stylelint "**/*.{css,scss}"
 ```
 
+```sh
+  npx eslint .
+```
+
 ### Deployment
 
 You can deploy this project using:
+
+- [ ] **[Github]**
+- [ ] **[Netlify]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,8 +128,6 @@ You can deploy this project using:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Edit book]**
 - [ ] **[Popup Page]**
@@ -153,11 +150,9 @@ If you like this project Please drop a comment🤗
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank Microverse for this activity🤗
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
@@ -170,7 +165,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
