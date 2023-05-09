@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./images/logo" alt="logo" width="140"  height="auto" />
+  <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Awesome Book</b></h3>
@@ -63,15 +63,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://peter-dumbari.github.io/AwesomeBookES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -126,8 +122,6 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
 - [ ] **[Edit book]**
 - [ ] **[Popup Page]**
 - [ ] **[Upload Image]**
@@ -152,8 +146,6 @@ If you like this project Please drop a comment🤗
 I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
