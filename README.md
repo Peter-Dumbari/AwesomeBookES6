@@ -114,6 +114,9 @@ To run the project on your computer, execute the following command :
 
 You can deploy this project using:
 
+- [ ] **[Github]**
+- [ ] **[Netlify]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
@@ -147,7 +150,7 @@ If you like this project Please drop a comment🤗
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank Microverse for this activity🤗
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +165,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
