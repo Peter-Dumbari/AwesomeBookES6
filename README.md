@@ -106,6 +106,10 @@ To run the project on your computer, execute the following command :
   npx stylelint "**/*.{css,scss}"
 ```
 
+```sh
+  npx eslint .
+```
+
 ### Deployment
 
 You can deploy this project using:
