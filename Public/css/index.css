@@ -1,0 +1,285 @@
+
+:root {
+  --white: #fff;
+  --silver: #d3d3d3;
+  --gray: #272a31;
+  --black: #000;
+  --textColor: #eb5f0c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* stylelint-disable no-descending-specificity */
+body {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  height: 100%;
+  color: var(--gray);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  background-color: #f8f5f5;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  background-image: url('../images/background-1.png');
+  background-size: cover;
+}
+
+.container header {
+  display: flex;
+  background: var(--gray);
+  padding: 5px 0 5px 10px;
+  align-items: center;
+}
+
+.container > header > * {
+  flex: 1;
+}
+
+.container header .logo a {
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.container header nav {
+  text-align: end;
+}
+
+nav li {
+  display: inline;
+}
+
+#error {
+  color: red;
+  text-align: center;
+}
+
+nav li a {
+  top: 15px;
+  font-size: 14pt;
+  color: var(--silver);
+  padding: 15.5px 20px;
+  font-weight: bold;
+}
+
+nav li a:hover {
+  color: var(--textColor);
+}
+
+.active {
+  color: var(--textColor);
+}
+
+main {
+  height: 90vh;
+  margin: 0 24px;
+}
+
+main .current-date {
+  text-align: end;
+  font-weight: bold;
+  font-size: medium;
+}
+
+main h1 {
+  font-family: cocogoose, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  padding: 5px;
+}
+
+th {
+  text-align: start;
+  text-transform: uppercase;
+  background-color: var(--silver);
+}
+
+tr td:last-child {
+  display: flex;
+  justify-content: space-around;
+  border-bottom-width: 1px;
+  border-color: var(--silver);
+}
+
+tr td:last-child a {
+  color: rgb(26, 26, 97);
+}
+
+tr td:last-child a:hover {
+  color: var(--textColor);
+}
+
+/* Add new book */
+form,
+.contact {
+  width: 60%;
+  margin: auto;
+  padding: 20px 30px;
+  background-color: rgba(211, 211, 211, 0.65);
+  border: 1px solid var(--gray);
+  border-radius: 16px;
+}
+
+form fieldset {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 3px;
+  border: 3px solid var(--gray);
+  margin: 20px 0 30px 0;
+}
+
+form fieldset legend {
+  background-color: #272a31;
+  margin-left: 10px;
+  color: var(--white);
+  padding: 0 10px;
+  width: 70px;
+}
+
+form input {
+  width: 100%;
+  padding: 5px;
+  border: 0;
+  font-size: 12pt;
+  outline: 0;
+  letter-spacing: 2px;
+}
+
+form > input:last-child {
+  width: 120px;
+  cursor: pointer;
+  height: 40px;
+  margin: 0 0 20px 200px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 3px solid var(--gray);
+  transition: background-color 0.2s ease-out;
+}
+
+form > input:last-child:hover {
+  color: var(--textColor);
+  background-color: var(--gray);
+}
+
+.success-insert {
+  color: var(--gray);
+  background-color: rgba(0, 128, 0, 0.8);
+  text-align: center;
+  width: 700px;
+  margin: 15px auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.success-insert::after {
+  content: "x";
+  float: right;
+  margin: 0 5px;
+  font-size: large;
+  cursor: pointer;
+  color: var(--white);
+}
+
+.contact {
+  font-size: 15pt;
+  line-height: 2;
+}
+
+.container ul {
+  list-style: circle;
+  margin-left: 40px;
+}
+
+/* footer */
+footer {
+  height: 5vh;
+  background-color: #ec5242;
+  text-align: center;
+  padding-top: 5px;
+  font-size: small;
+}
+
+.fullScreen {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  top: 0;
+  animation: bgColor 1500ms ease-in 0s 1 normal forwards;
+}
+
+@keyframes bgColor {
+  0% {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  100% {
+    background-color: rgba(0, 0, 0, 1);
+  }
+}
+
+.fullScreen .popup {
+  width: 80%;
+  background-color: white;
+  margin: 1.5% auto;
+  border-radius: 8px;
+  padding: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.fullScreen .popup * {
+  flex: 1;
+}
+
+.fullScreen .popup div img {
+  width: 100%;
+}
+
+.fullScreen a {
+  background-color: var(--textColor);
+  padding: 5px 10px;
+  margin: 10px 0;
+  color: var(--gray);
+  transition: 0.3s all ease-in;
+}
+
+.fullScreen a:hover {
+  background-color: var(--gray);
+  padding: 5px;
+  margin-top: 1em;
+  color: var(--textColor);
+}
